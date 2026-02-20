@@ -6,12 +6,14 @@ function App() {
 
   let [Counter,setCounter]= useState(15);
 
+  // addition function
   const addValue = () =>{
     console.log("clicked",Counter);
     // Counter = Counter + 1;
     setCounter(Counter+1);
   }
 
+  // remove function
   const removeValue = () => {
     console.log("clicked",Counter);
     // another way to write
